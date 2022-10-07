@@ -1,0 +1,36 @@
+[
+  {
+    "_id":"62e8a3d58edb7c3c91a56c60",
+    "name":"FANS Token",
+    "symbol":"FANS",
+    "address":"0x9C04EFD1E9aD51A605eeDcb576159242FF930368",
+    "decimals":18,
+    "logoURI":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmUUDPqXRSbyV0fpL9Xl2t3CkZdbZ6zQBPi6Q8mIwXeg&s",
+    "impl":"evm",
+    "verified":true,
+    "security":false,
+    "addToIndex":true,
+    "chainId":"96",
+    "checked":false,
+    "createdAt":"2022-08-02T04:11:01.814Z",
+    "updatedAt":"2022-09-16T16:46:54.021Z",
+    "marketCap":0
+  },
+  {
+    "_id":"62e8a3d58edb7c3c91a56c61",
+    "name":"Bitkub-Peg USDT",
+    "symbol":"KUSDT",
+    "address":"0x7d984C24d2499D840eB3b7016077164e15E5faA6",
+    "decimals":18,
+    "logoURI":"https://common.onekey-asset.com/token/evm-66/0x382bB369d343125BfB2117af9c149795C6C65C50.jpg",
+    "impl":"evm",
+    "verified":true,
+    "security":false,
+    "addToIndex":false,
+    "chainId":"96",
+    "checked":false,
+    "createdAt":"2022-08-02T04:11:01.814Z",
+    "updatedAt":"2022-09-16T16:46:54.021Z",
+    "marketCap":0
+  }
+]

@@ -1,0 +1,22 @@
+const DEFAULT_ONLINE_ENDPOINT = 'https://fiat.onekeycn.com';
+const TEST_ENDPOINT = 'https://fiat.onekeytest.com';
+
+const DEFAULT_SOCKET_ENDPOINT = 'wss://fiat.onekeycn.com';
+const TEST_SOCKET_ENDPOINT = 'wss://fiat.onekeytest.com';
+
+const GIT_RAW_ENDPOINT = 'https://raw.githubusercontent.com/dome/onekey-wallet/onekey/data';
+
+let endpoint = DEFAULT_ONLINE_ENDPOINT;
+let websocketEndpoint = DEFAULT_SOCKET_ENDPOINT;
+let gitRawEndpoint = GIT_RAW_ENDPOINT;
+
+export const switchTestEndpoint = (isTestEnable?: boolean) => {
+  endpoint = isTestEnable ? TEST_ENDPOINT : DEFAULT_ONLINE_ENDPOINT;
+  websocketEndpoint = isTestEnable
+    ? TEST_SOCKET_ENDPOINT
+    : DEFAULT_SOCKET_ENDPOINT;
+};
+
+export const getFiatEndpoint = () => endpoint;
+export const getSocketEndpoint = () => websocketEndpoint;
+export const getGitEndpoint = () => gitRawEndpoint;

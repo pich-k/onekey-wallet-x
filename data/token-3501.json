@@ -1,0 +1,19 @@
+[
+  {
+    "_id":"62e899958edb7c3c91a56c60",
+    "name":"BUSD Bridge",
+    "symbol":"BUSD",
+    "address":"0x940c30fe05C78A44BDf1D623816dC25233849469",
+    "decimals":18,
+    "logoURI":"https://common.onekey-asset.com/token/evm-66/0x332730a4f6e03d9c55829435f10360e13cfa41ff.png",
+    "impl":"evm",
+    "verified":true,
+    "security":false,
+    "addToIndex":true,
+    "chainId":"3501",
+    "checked":true,
+    "createdAt":"2022-08-02T04:11:01.814Z",
+    "updatedAt":"2022-09-16T16:46:54.021Z",
+    "marketCap":0
+  }
+]
